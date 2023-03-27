@@ -1,0 +1,21 @@
+nav {
+  background-color: var(--primary);
+  color: white;
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+ul {
+  li {
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 3px;
+    &:hover {
+      //& fait reference a l'element parent
+      background-color: var(--secondary);
+    }
+    transition: background-color 0.4s;
+  }
+}
